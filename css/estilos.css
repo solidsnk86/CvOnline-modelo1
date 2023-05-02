@@ -231,6 +231,7 @@ span {
     border-radius: 50px;
     color: #fff;
     margin-left: 25px;
+    margin-bottom: 25px;
     cursor: pointer;
 }
 span:hover {

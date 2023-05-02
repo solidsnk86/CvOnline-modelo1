@@ -1,0 +1,246 @@
+* {
+    font-family: 'Righteous';
+    margin: 0;
+}
+main {
+    display: flex;
+    background-color: rgb(226, 238, 248);
+    height: 100vh;
+    width: 50%;
+}
+.logo {
+    margin: 20px;
+    width: 400px;
+    height: 100%;
+}
+.logo button {
+    display: inline-flex;
+    border: none;
+    border-left: 2px solid #000;
+    background-color: transparent;
+    padding-left: 14px;
+    padding-right: 14px;
+    width: 30%;
+    font-size: 1.20em;
+    margin-top: 50%;
+    cursor: pointer;
+    justify-content: center;
+}
+.logo button:hover {
+    transform-style: flat;
+}
+.redes {
+    position: absolute;
+    bottom: 50px;
+    background-color: midnightblue;
+    height: 100px;
+    width: 300px;
+    padding: 30px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    text-align: center;
+    color: aliceblue;
+}
+.redes h5 {
+    font-weight: 300;
+    font-size: 0.9em;
+}
+.redes img {
+    border-radius: 8px;
+    margin: 5px;
+}
+.redes img:hover {
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+.perfil {
+    background-color: midnightblue;
+    margin-top: 20px;
+    padding-top: 100px;
+    width: fit-content;
+    height: fit-content;
+    border-bottom-left-radius: 190px;
+    border-bottom-right-radius: 190px;
+    color: aliceblue;
+}
+.perfil h3 {
+    font-weight: 200;
+}
+.hola {
+    margin-bottom: 35px;
+}
+.perfil img {
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-right: 33px;
+    margin-left: 33px;
+    margin-bottom: 8px;
+}
+#miCV {
+    position: absolute;
+    bottom: 15%;
+    right: 30%;
+    border: 2px solid midnightblue;
+    padding: 14px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#miCV a {
+    text-decoration: none;
+    font-weight: 600;
+    color: midnightblue;
+}
+#miCV:hover {
+    background-color: rgb(228, 101, 55);
+    transition: 0.1s step-end;
+}
+
+/* Sección Responsive */
+
+
+@media screen and (max-width:900px) {
+    body {
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+        background-color: rgb(226, 238, 248);
+    }
+    main {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        position: relative;
+        top: 65%;
+        margin: 0;
+    }
+    .hola {
+        position: absolute;
+        top: 15px;
+        right: 80px;
+    }
+    .logo img {
+        width: 40px;
+    }
+    .redes {
+        position: absolute;
+        width: 70%;
+        bottom: 20%;
+    }
+    .redes h5 {
+        margin-bottom: 8px;
+    }
+    .perfil {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    #miCV {
+        right: 25%;
+        bottom: -80px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    body {
+        width: 100%;
+    }
+    main {
+        display: block;
+        width: 100%;
+    }
+    .hola {
+        position: absolute;
+        top: 15px;
+        left: 85px;
+    }
+    .perfil {
+        margin-top: 0;
+    }
+}
+
+/* Sección Trabajos */
+#curriculum {
+    background-color: midnightblue;
+}
+header {
+    background-color: midnightblue;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contenedor {
+    background-color: midnightblue;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}  
+li {
+    margin-bottom: 20px;
+}
+.laboral {
+    padding: 10px;
+    background-color: rgb(228, 101, 55);
+    height: fit-content;
+    width: 50%;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 100px;
+}
+.laboral h2 {
+    background-color: midnightblue;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    padding: 50px 8px;
+    width: fit-content;
+    color: #fff;
+    transform: translateY(-55%);
+}
+.educacion {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(228, 101, 55);
+    height: fit-content;
+    width: 50%;
+    border-radius: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+.educacion h2 {
+    background-color: midnightblue;
+    border-radius: 100%;
+    border: 5px solid #fff;
+    padding: 50px 8px;
+    width: fit-content;
+    color: #fff;
+    transform: translateY(-55%);
+}
+footer {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    margin: 20px;
+}
+span {
+    border: 2px solid #fff;
+    padding: 12px;
+    border-radius: 50px;
+    color: #fff;
+    margin-left: 25px;
+    cursor: pointer;
+}
+span:hover {
+    background-color: rgb(228, 101, 55);
+    color: #000;
+    transition: 0.2s ease-in-out;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover {
+    text-decoration: underline;
+}

@@ -222,7 +222,8 @@ footer {
     text-align: center;
     color: #fff;
     font-weight: 400;
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 span {
     border: 2px solid #fff;

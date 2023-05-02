@@ -223,7 +223,7 @@ footer {
     color: #fff;
     font-weight: 400;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 span {
     border: 2px solid #fff;
@@ -231,7 +231,7 @@ span {
     border-radius: 50px;
     color: #fff;
     margin-left: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 45px;
     cursor: pointer;
 }
 span:hover {

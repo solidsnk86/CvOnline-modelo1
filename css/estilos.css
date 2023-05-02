@@ -242,7 +242,9 @@ span:hover {
 footer a {
     text-decoration: none;
     color: #fff;
+    font-wheight: bold;
 }
 footer a:hover {
     text-decoration: underline;
+
 }

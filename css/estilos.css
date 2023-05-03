@@ -1,7 +1,9 @@
 * {
     font-family: 'Righteous';
     margin: 0;
+    padding: 0;
 }
+
 main {
     display: flex;
     background-color: rgb(226, 238, 248);
@@ -9,9 +11,12 @@ main {
     width: 50%;
 }
 .logo {
-    margin: 20px;
     width: 400px;
     height: 100%;
+    margin: 0;
+}
+.logo img {
+    margin-top: 35px;
 }
 .logo button {
     display: inline-flex;
@@ -55,7 +60,6 @@ main {
 }
 .perfil {
     background-color: midnightblue;
-    margin-top: 20px;
     padding-top: 100px;
     width: fit-content;
     height: fit-content;
@@ -96,7 +100,11 @@ main {
 }
 
 /* Sección Responsive */
-
+@media screen and (max-width:1100px) {
+    main {
+        width: 100%;
+    }
+}
 
 @media screen and (max-width:900px) {
     body {
@@ -141,6 +149,8 @@ main {
     }
 }
 
+
+
 @media screen and (max-width:700px) {
     body {
         width: 100%;
@@ -156,6 +166,99 @@ main {
     }
     .perfil {
         margin-top: 0;
+    }
+    
+}
+
+
+
+@media screen and (max-width:600px) {
+    body {
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+        background-color: rgb(226, 238, 248);
+    }
+    main {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        position: relative;
+        top: 65%;
+        margin: 0;
+    }
+    .hola {
+        position: absolute;
+        top: 15px;
+        right: 80px;
+    }
+    .logo img {
+        width: 40px;
+    }
+    .redes {
+        position: absolute;
+        width: 90%;
+        bottom: 20%;
+        left: -100px;
+    }
+    .redes h5 {
+        margin-bottom: 8px;
+    }
+    .perfil {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    #miCV {
+        right: 33%;
+        bottom: -80px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    body {
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+        background-color: rgb(226, 238, 248);
+    }
+    main {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        position: relative;
+        top: 65%;
+        margin: 0;
+    }
+    .hola {
+        position: absolute;
+        top: 15px;
+        right: 80px;
+    }
+    .logo img {
+        width: 40px;
+    }
+    .redes {
+        position: absolute;
+        width: 90%;
+        bottom: 20%;
+    }
+    .redes img {
+        transform: translateX(90%);
+    }
+    .redes h5 {
+        margin-left: 70px;
+    }
+    .perfil {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    #miCV {
+        right: 26%;
+        bottom: -80px;
     }
 }
 
@@ -222,8 +325,7 @@ footer {
     text-align: center;
     color: #fff;
     font-weight: 400;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin: 20px;
 }
 span {
     border: 2px solid #fff;
@@ -231,7 +333,6 @@ span {
     border-radius: 50px;
     color: #fff;
     margin-left: 25px;
-    margin-bottom: 45px;
     cursor: pointer;
 }
 span:hover {
@@ -242,9 +343,7 @@ span:hover {
 footer a {
     text-decoration: none;
     color: #fff;
-    font-wheight: bold;
 }
 footer a:hover {
     text-decoration: underline;
-
 }

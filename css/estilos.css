@@ -82,7 +82,7 @@ main {
 }
 #miCV {
     position: absolute;
-    bottom: 15%;
+    bottom: 30%;
     right: 30%;
     border: 2px solid midnightblue;
     padding: 14px;
@@ -96,7 +96,7 @@ main {
 }
 #miCV:hover {
     background-color: rgb(228, 101, 55);
-    transition: 0.1s step-end;
+    transition: 0.1s ease-in-out;
 }
 
 /* Sección Responsive */
@@ -167,7 +167,10 @@ main {
     .perfil {
         margin-top: 0;
     }
-    
+    #miCV {
+        right: 25%;
+        bottom: -80px;
+    }
 }
 
 
@@ -217,6 +220,52 @@ main {
 }
 
 @media screen and (max-width:400px) {
+    body {
+        width: 100%;
+        margin: 0;
+        height: fit-content;
+        background-color: rgb(226, 238, 248);
+    }
+    main {
+        display: block;
+        width: 100%;
+    }
+    .logo {
+        position: relative;
+        top: 65%;
+        margin: 0;
+    }
+    .hola {
+        position: absolute;
+        top: 15px;
+        right: 80px;
+    }
+    .logo img {
+        width: 40px;
+    }
+    .redes {
+        position: absolute;
+        width: 90%;
+        bottom: 20%;
+    }
+    .redes img {
+        transform: translateX(90%);
+    }
+    .redes h5 {
+        margin-left: 70px;
+    }
+    .perfil {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    #miCV {
+        right: 26%;
+        bottom: -80px;
+    }
+}
+
+@media screen and (max-width:414px) {
     body {
         width: 100%;
         margin: 0;
@@ -325,15 +374,17 @@ footer {
     text-align: center;
     color: #fff;
     font-weight: 400;
-    margin: 20px;
+    margin-bottom: 20px;
 }
 span {
+    position: relative;
     border: 2px solid #fff;
     padding: 12px;
     border-radius: 50px;
     color: #fff;
     margin-left: 25px;
     cursor: pointer;
+    bottom: 25px;
 }
 span:hover {
     background-color: rgb(228, 101, 55);

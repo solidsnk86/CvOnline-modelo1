@@ -66,6 +66,7 @@ main {
     border-bottom-left-radius: 190px;
     border-bottom-right-radius: 190px;
     color: aliceblue;
+    box-shadow: 0 6px 9px rgba(0,0,0,0.9);
 }
 .perfil h3 {
     font-weight: 200;
@@ -406,6 +407,17 @@ footer a:hover {
     padding: 20px;
     background-color: midnightblue;
     border-radius: 50px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+}
+.show {
+    display: block;
+    opacity: 1;
+    transition: 0.9s ease-in-out;
+    transition-delay: 1s;
+}
+.show:hover {
+    transition: 0.6s ease-in-out;
 }
 .demos h3 {
     color: rgb(228, 101, 55);

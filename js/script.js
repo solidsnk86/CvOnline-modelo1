@@ -16,3 +16,25 @@ function volverIndex() {
     botonVolver.addEventListener('click', 
     window.open('index.html'));
 };
+
+const botonDemo = document.getElementById('despliegue');
+const menuDemos = document.querySelector('.demos');
+
+botonDemo.addEventListener('click', () => {
+  if (menuDemos.style.display === 'none') {
+    menuDemos.style.display = 'block';
+  } else {
+    menuDemos.style.display = 'none';
+  }
+})
+
+const botonDemo2 = document.getElementById('despliegue-2');
+const menuDemos2 = document.querySelector('.demos-2');
+
+botonDemo2.addEventListener('click', () => {
+  if (menuDemos2.style.display === 'none') {
+    menuDemos2.style.display = 'block';
+  } else {
+    menuDemos2.style.display = 'none';
+  }
+})

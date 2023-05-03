@@ -398,3 +398,65 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Trabajos */
+
+.demos {
+    display: none;
+    padding: 20px;
+    background-color: midnightblue;
+    border-radius: 50px;
+}
+.demos h3 {
+    color: rgb(228, 101, 55);
+}
+.demos p {
+    color: #fff;
+}
+.demos li {
+    color: #fff;
+    font-weight: lighter;
+}
+
+#despliegue {
+    border: none;
+    font-size: 2.5em;
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 0 3px 6px #000;
+    cursor: pointer;
+}
+#despliegue:hover {
+    color: midnightblue;
+    transition: 0.1s ease-in;
+}
+
+.demos-2 {
+    display: none;
+    padding: 20px;
+    background-color: midnightblue;
+    border-radius: 50px;
+}
+.demos-2 h3 {
+    color: rgb(228, 101, 55);
+}
+.demos-2 p {
+    color: #fff;
+}
+.demos-2 li {
+    color: #fff;
+    font-weight: lighter;
+}
+
+#despliegue-2 {
+    border: none;
+    font-size: 2.5em;
+    background-color: transparent;
+    color: #fff;
+    text-shadow: 0 3px 6px #000;
+    cursor: pointer;
+}
+#despliegue-2:hover {
+    color: midnightblue;
+    transition: 0.1s ease-in;
+}

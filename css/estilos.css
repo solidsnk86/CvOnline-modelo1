@@ -222,7 +222,7 @@ main {
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-height:640px) {
     body {
         width: 100%;
         margin: 0;
@@ -492,7 +492,7 @@ footer a:hover {
 .compartir-lista {
     position: fixed;
     list-style: none;
-    top: 23%;
+    top: 33%;
     left: -12px;
     display: block;
 }
@@ -529,7 +529,26 @@ footer a:hover {
     font-size: 1.5em;
     box-shadow: 0 3px 6px #000;
 }
-
+#whatsapp {
+    width: fit-content;
+    background-color: rgb(39, 148, 44);
+    padding: 8px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5em;
+    box-shadow: 0 3px 6px #000;
+}
+#twitter {
+    width: fit-content;
+    background-color: rgb(7, 153, 238);
+    padding: 8px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: pointer;
+    font-size: 1.5em;
+    box-shadow: 0 3px 6px #000;
+}
 #facebook:hover {
     width: 100%;
     color: #fff;
@@ -539,6 +558,14 @@ footer a:hover {
     color: #fff;
 }
 #linkedin:hover {
+    width: 100%;
+    color: #fff;
+}
+#whatsapp:hover {
+    width: 100%;
+    color: #fff;
+}
+#twitter:hover {
     width: 100%;
     color: #fff;
 }

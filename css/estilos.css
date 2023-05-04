@@ -197,7 +197,7 @@ main {
 }
 @media screen and (max-width:640px) {
     .perfil {
-        width: 100%;
+        width: 110%;
     }
     .hola {
         margin-left: 30%;

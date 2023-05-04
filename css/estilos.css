@@ -172,14 +172,14 @@ main {
     .hola {
         position: absolute;
         top: 15px;
-        margin-right: 8%;
+        margin-right: 5%;
     }
     .logo img {
         width: 40px;
     }
     .redes {
         position: absolute;
-        width: 70%;
+        width: 75%;
         bottom: 5%;
         left: -50px;
     }

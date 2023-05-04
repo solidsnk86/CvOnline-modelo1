@@ -78,6 +78,28 @@ icon2.addEventListener('click', function() {
     icon2.style.transform = "rotate(180deg)";
     isRotated = true;
 }
+// Compartir en redes sociales
+
+
+function compartirFacebook() {
+  window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href));
+};
+
+function compartirWhatsapp() {
+  var mensaje = "Mira mi Portfolio web aquí!: " + window.location.href;
+  window.open('https://wa.me/?text=' + encodeURIComponent(mensaje));
+};
+
+function compartirTwitter() {
+  window.open('https://twitter.com/share?url=' + encodeURIComponent(window.location.href));
+};
+
+function compartirLinkedIn() {
+  var url = encodeURIComponent(window.location.href);
+  var title = encodeURIComponent(document.title);
+  var shareUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}`';
+  window.open(shareUrl, '_blank');
+};
 });
 
 

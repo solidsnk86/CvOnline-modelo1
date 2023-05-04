@@ -9,7 +9,7 @@ const header = document.querySelector('header');
 
 header.addEventListener('click', function() {
  if (header.style.backgroundColor === '') {
-  header.style.backgroundColor = 'Orange';
+  header.style.backgroundColor = 'rgb(228, 101, 55)';
  } else {
   header.style.backgroundColor = '';
  }
@@ -53,6 +53,7 @@ botonDemo.addEventListener('click', () => {
   }
 });
 
+
 const icon = document.querySelector('#chevron');
 
 let isRotated = false;
@@ -78,6 +79,8 @@ icon2.addEventListener('click', function() {
     icon2.style.transform = "rotate(180deg)";
     isRotated = true;
 }
+});
+
 // Compartir en redes sociales
 
 
@@ -100,6 +103,7 @@ function compartirLinkedIn() {
   var shareUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}`';
   window.open(shareUrl, '_blank');
 };
-});
 
+function compartirInstagram() {
 
+}

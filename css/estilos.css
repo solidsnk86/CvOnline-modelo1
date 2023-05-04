@@ -172,14 +172,14 @@ main {
     .hola {
         position: absolute;
         top: 15px;
-        margin-right: 5%;
+        margin-right: 8%;
     }
     .logo img {
         width: 40px;
     }
     .redes {
         position: absolute;
-        width: 75%;
+        width: 70%;
         bottom: 5%;
         left: -50px;
     }
@@ -273,6 +273,7 @@ li {
     box-shadow: 0 6px 10px #000;
 }
 footer {
+    position: relative;
     text-align: center;
     color: #fff;
     font-weight: 400;
@@ -284,9 +285,9 @@ span {
     padding: 12px;
     border-radius: 50px;
     color: #fff;
-    margin-left: 25px;
     cursor: pointer;
     bottom: 25px;
+    margin-bottom: 10px;
 }
 span:hover {
     background-color: rgb(228, 101, 55);

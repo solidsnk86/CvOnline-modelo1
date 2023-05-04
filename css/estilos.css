@@ -378,6 +378,13 @@ li {
 #chevron--rotated {
     transform: rotate(180deg);
 }
+#chevron-2 {
+    transform: rotate(0deg);
+    transition: transform 0.4s ease-in-out;
+}
+#chevron-2--rotated {
+    transform: rotate(180deg);
+}
 footer {
     text-align: center;
     color: #fff;

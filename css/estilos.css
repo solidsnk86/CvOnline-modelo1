@@ -86,7 +86,7 @@ main {
 #miCV {
     position: absolute;
     bottom: 15%;
-    right: 35%;
+    right: 30%;
     border: 2px solid midnightblue;
     padding: 14px;
     border-radius: 50px;
@@ -154,24 +154,45 @@ main {
 
 
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:740px) {
     body {
         width: 100%;
+        margin: 0;
+        height: fit-content;
+        background-color: rgb(226, 238, 248);
     }
     main {
         display: block;
         width: 100%;
     }
+    .logo {
+        position: relative;
+        top: 65%;
+        margin: 0;
+    }
     .hola {
         position: absolute;
         top: 15px;
-        left: 85px;
+        right: 80px;
+    }
+    .logo img {
+        width: 40px;
+    }
+    .redes {
+        position: absolute;
+        width: 70%;
+        bottom: 10%;
+    }
+    .redes h5 {
+        margin-bottom: 8px;
     }
     .perfil {
-        margin-top: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
     }
     #miCV {
-        right: 25%;
+        right: 30%;
         bottom: -80px;
     }
 }

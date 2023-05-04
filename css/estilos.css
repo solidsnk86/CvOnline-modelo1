@@ -109,9 +109,9 @@ main {
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:980px) {
     body {
-        width: 100%;
+        width: fit-content;
         margin: 0;
         height: fit-content;
         background-color: rgb(226, 238, 248);
@@ -128,14 +128,13 @@ main {
     .hola {
         position: absolute;
         top: 15px;
-        right: 80px;
     }
     .logo img {
         width: 40px;
     }
     .redes {
         position: absolute;
-        width: 70%;
+        width: 75%;
         bottom: 20%;
     }
     .redes h5 {
@@ -154,16 +153,16 @@ main {
 
 
 
-@media screen and (max-width:740px) {
+@media screen and (max-width:700px) {
     body {
-        width: 100%;
+        width: fit-content;
         margin: 0;
         height: fit-content;
         background-color: rgb(226, 238, 248);
     }
     main {
         display: block;
-        width: 100%;
+        width: fit-content;
     }
     .logo {
         position: relative;
@@ -173,7 +172,7 @@ main {
     .hola {
         position: absolute;
         top: 15px;
-        right: 80px;
+        margin-right: 8%;
     }
     .logo img {
         width: 40px;
@@ -181,7 +180,8 @@ main {
     .redes {
         position: absolute;
         width: 70%;
-        bottom: 10%;
+        bottom: 5%;
+        left: -50px;
     }
     .redes h5 {
         margin-bottom: 8px;
@@ -192,146 +192,20 @@ main {
         width: 100%;
     }
     #miCV {
-        right: 30%;
+        margin-left: 1%;
         bottom: -80px;
     }
 }
-
-
-
-@media screen and (max-width:600px) {
-    body {
-        width: 100%;
-        margin: 0;
-        height: fit-content;
-        background-color: rgb(226, 238, 248);
-    }
-    main {
-        display: block;
-        width: 100%;
-    }
-    .logo {
-        position: relative;
-        top: 65%;
-        margin: 0;
+@media screen and (max-width:640px) {
+    .perfil {
+        width: 111%;
     }
     .hola {
-        position: absolute;
-        top: 15px;
-        right: 80px;
+        margin-left: 25%;
     }
-    .logo img {
-        width: 40px;
-    }
-    .redes {
-        position: absolute;
-        width: 90%;
-        bottom: 20%;
-        left: -100px;
-    }
-    .redes h5 {
-        margin-bottom: 8px;
-    }
-    .perfil {
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-    #miCV {
-        right: 33%;
-        bottom: -80px;
-    }
-}
-
-@media screen and (max-height:640px) {
-    body {
-        width: 100%;
-        margin: 0;
-        height: fit-content;
-        background-color: rgb(226, 238, 248);
-    }
-    main {
-        display: block;
-        width: 100%;
-    }
-    .logo {
-        position: relative;
-        top: 65%;
-        margin: 0;
-    }
-    .hola {
-        position: absolute;
-        top: 15px;
-        right: 80px;
-    }
-    .logo img {
-        width: 40px;
-    }
-    .redes {
-        position: absolute;
-        width: 90%;
-        bottom: 20%;
-    }
-    .redes img {
-        transform: translateX(90%);
-    }
-    .redes h5 {
-        margin-left: 70px;
-    }
-    .perfil {
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-    #miCV {
-        right: 26%;
-        bottom: -80px;
-    }
-}
-
-@media screen and (max-width:414px) {
-    body {
-        width: 100%;
-        margin: 0;
-        height: fit-content;
-        background-color: rgb(226, 238, 248);
-    }
-    main {
-        display: block;
-        width: 100%;
-    }
-    .logo {
-        position: relative;
-        top: 65%;
-        margin: 0;
-    }
-    .hola {
-        position: absolute;
-        top: 15px;
-        right: 80px;
-    }
-    .logo img {
-        width: 40px;
-    }
-    .redes {
-        position: absolute;
-        width: 90%;
-        bottom: 20%;
-    }
-    .redes img {
-        transform: translateX(90%);
-    }
-    .redes h5 {
-        margin-left: 70px;
-    }
-    .perfil {
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-    #miCV {
-        right: 26%;
-        bottom: -80px;
+    .logo  {
+        margin-top: 25px;
+        margin-left: 1%;
     }
 }
 

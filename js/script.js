@@ -81,6 +81,7 @@ icon2.addEventListener('click', function() {
 }
 });
 
+
 // Compartir en redes sociales
 
 
@@ -104,6 +105,3 @@ function compartirLinkedIn() {
   window.open(shareUrl, '_blank');
 };
 
-function compartirInstagram() {
-
-}

@@ -4,18 +4,6 @@ function verTrabajos() {
     location.href = 'trabajos.html');
 };
 
-// Función para cambiar el color de fondo del encabezado cuando se hace clic en él
-const header = document.querySelector('header');
-
-header.addEventListener('click', function() {
- if (header.style.backgroundColor === '') {
-  header.style.backgroundColor = 'rgb(228, 101, 55)';
- } else {
-  header.style.backgroundColor = '';
- }
-});
-
-
 function volverIndex() {
     const botonVolver = document.getElementById('volver');
     botonVolver.addEventListener('click', 

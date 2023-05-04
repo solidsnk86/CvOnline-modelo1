@@ -54,8 +54,28 @@ botonDemo.addEventListener('click', () => {
 });
 
 const icon = document.querySelector('#chevron');
-icon.addEventListener('click', function () {
+
+let isRotated = false;
+
+icon.addEventListener('click', function() {
+
+  if (isRotated) {
+
+    icon.style.transform = "rotate(0deg)";
+
+    isRotated = false;
+
+  } else {
+
     icon.style.transform = "rotate(180deg)";
-    });
+
+    isRotated = true;
+
+  }
+
+});
+
+
+
 
 

@@ -58,24 +58,26 @@ const icon = document.querySelector('#chevron');
 let isRotated = false;
 
 icon.addEventListener('click', function() {
-
   if (isRotated) {
-
     icon.style.transform = "rotate(0deg)";
-
     isRotated = false;
-
   } else {
-
     icon.style.transform = "rotate(180deg)";
-
     isRotated = true;
-
-  }
-
+}
 });
 
+const icon2 = document.querySelector('#chevron-2');
 
 
+icon2.addEventListener('click', function() {
+  if (isRotated) {
+    icon2.style.transform = "rotate(0deg)";
+    isRotated = false;
+  } else {
+    icon2.style.transform = "rotate(180deg)";
+    isRotated = true;
+}
+});
 
 

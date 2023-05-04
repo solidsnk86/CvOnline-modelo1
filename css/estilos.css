@@ -209,6 +209,7 @@ main {
 /* Sección Trabajos */
 #curriculum {
     background-color: midnightblue;
+    width: 100%;
 }
 header {
     background-color: midnightblue;

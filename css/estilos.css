@@ -201,7 +201,7 @@ main {
         width: 111%;
     }
     .hola {
-        margin-left: 25%;
+        margin-left: 30%;
     }
     .logo  {
         margin-top: 25px;
@@ -287,7 +287,6 @@ span {
     color: #fff;
     cursor: pointer;
     bottom: 25px;
-    margin-bottom: 10px;
 }
 span:hover {
     background-color: rgb(228, 101, 55);

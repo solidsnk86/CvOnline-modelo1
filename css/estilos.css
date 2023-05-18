@@ -132,6 +132,9 @@ main {
     .logo img {
         width: 40px;
     }
+    .logo .trabajos {
+        margin-left: 118px;
+    }
     .redes {
         position: absolute;
         width: 75%;
@@ -145,9 +148,7 @@ main {
         top: 0;
         width: 100%;
     }
-    #miCV {
-        bottom: -80px;
-    }
+    
 }
 
 
@@ -179,7 +180,7 @@ main {
     .redes {
         position: absolute;
         width: 85%;
-        bottom: 5%;
+        bottom: 3%;
         left: -50px;
     }
     .redes h5 {
@@ -191,13 +192,17 @@ main {
         width: 100%;
     }
     #miCV {
-        position: absolute;
-        margin-left: 25%;
+        bottom: 225px;
+        left: 140px;
+    }
+    footer {
+        position: relative;
+        bottom: -100px;
     }
 }
 @media screen and (max-width:640px) {
     .perfil {
-        width: 110%;
+        width: 111%;
     }
     .hola {
         margin-left: 30%;
@@ -287,6 +292,7 @@ span {
     color: #fff;
     cursor: pointer;
     bottom: 25px;
+    margin-left: 10px;
 }
 span:hover {
     background-color: rgb(228, 101, 55);

@@ -47,7 +47,20 @@ main {
     border-bottom-right-radius: 80px;
     text-align: center;
     color: aliceblue;
+    animation: slideInLeft 1.5s forwards;
 }
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 .redes h5 {
     font-weight: 300;
     font-size: 0.9em;
@@ -75,7 +88,20 @@ main {
 }
 .hola {
     margin-bottom: 35px;
+    animation: slideFromTop 1.5s forwards;
 }
+
+@keyframes slideFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-200px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .perfil img {
     border-radius: 50%;
     border: 6px solid #fff;
@@ -88,7 +114,7 @@ main {
     bottom: 15%;
     right: 30%;
     border: 2px solid midnightblue;
-    padding: 14px;
+    padding: 10px;
     border-radius: 50px;
     cursor: pointer;
 }

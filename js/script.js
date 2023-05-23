@@ -93,7 +93,7 @@ function compartirLinkedIn() {
   window.open(shareUrl, '_blank');
 };
 
-const button = document.getElementById('water-button');
+const button = document.getElementById('miCV');
 
 button.addEventListener('click', createWaterEffect);
 

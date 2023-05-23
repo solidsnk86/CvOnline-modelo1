@@ -93,3 +93,50 @@ function compartirLinkedIn() {
   window.open(shareUrl, '_blank');
 };
 
+const button = document.getElementById('water-button');
+
+button.addEventListener('click', createWaterEffect);
+
+function createWaterEffect(e) {
+
+  const waterEffect = document.createElement('span');
+
+  waterEffect.classList.add('water-effect');
+
+  
+
+  const rect = button.getBoundingClientRect();
+
+  const x = e.clientX - rect.left;
+
+  const y = e.clientY - rect.top;
+
+  
+
+  waterEffect.style.left = `${x}px`;
+
+  waterEffect.style.top = `${y}px`;
+
+  
+
+  button.appendChild(waterEffect);
+
+  
+
+  // Iniciar la animación
+
+  waterEffect.style.opacity = '1';
+
+  waterEffect.style.backgroundSize = '100% 100%';
+
+  
+
+  // Eliminar el efecto después de cierto tiempo
+
+  setTimeout(() => {
+
+    button.removeChild(waterEffect);
+
+  }, 1000);
+
+}

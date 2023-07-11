@@ -19,7 +19,6 @@ Un currículum online web es una plataforma interactiva para crear y compartir t
 2. Crea una rama con una descripción clara de la función o corrección que implementarás.
 3. Envía tus cambios mediante un pull request.
 
-Por favor, lee nuestras pautas de contribución para obtener más detalles.
 
 ## Enlaces
 

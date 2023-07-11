@@ -69,9 +69,7 @@ icon2.addEventListener('click', function() {
 }
 });
 
-
 // Compartir en redes sociales
-
 
 function compartirFacebook() {
   window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(window.location.href));

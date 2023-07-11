@@ -2,7 +2,7 @@
 
 Un currículum online web es una plataforma interactiva para crear y compartir tu currículum de forma fácil y visualmente atractiva. Este proyecto está diseñado para permitir a los usuarios crear su propio currículum personalizado y mostrarlo en línea de manera profesional.
 
-- Herramientas usadas:
+## Herramientas usadas:
 
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?logo=html5&logoColor=white)
 
@@ -10,18 +10,6 @@ Un currículum online web es una plataforma interactiva para crear y compartir t
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?logo=javascript&logoColor=black)
 
-
-## Capturas de pantalla
-
-![Captura de pantalla 1](screenshots/screenshot1.png)
-![Captura de pantalla 2](screenshots/screenshot2.png)
-
-## Instalación
-
-1. Clona este repositorio en tu máquina local.
-2. Ejecuta el comando `npm install` para instalar las dependencias.
-3. Inicia el servidor local con `npm start`.
-4. Abre tu navegador web y accede a `http://localhost:3000`.
 
 ## Contribución
 
@@ -35,10 +23,8 @@ Por favor, lee nuestras pautas de contribución para obtener más detalles.
 
 ## Enlaces
 
-- Visita el sitio web en vivo: [www.example.com](https://www.example.com)
+- Visita mi sitio web para configurar ![Static Badge](https://img.shields.io/badge/Wi-Fi-blue): [www.example.com](https://www.example.com)
 
-- Aquí un web para configurar ![Static Badge](https://img.shields.io/badge/Wi-Fi-blue)
-- 
 
 ## Agradecimientos
 

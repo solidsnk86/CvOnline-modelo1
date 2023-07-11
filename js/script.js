@@ -90,7 +90,7 @@ function compartirLinkedIn() {
   var shareUrl = 'https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${title}`';
   window.open(shareUrl, '_blank');
 };
-
+// Efecto botón 
 const button = document.getElementById('miCV');
 
 button.addEventListener('click', createWaterEffect);

@@ -3,6 +3,7 @@
 Un currículum online web es una plataforma interactiva para crear y compartir tu currículum de forma fácil y visualmente atractiva. Este proyecto está diseñado para permitir a los usuarios crear su propio currículum personalizado y mostrarlo en línea de manera profesional.
 
 - Herramientas usadas:
+
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?logo=html5&logoColor=white)
 
 ![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?logo=css3&logoColor=white)

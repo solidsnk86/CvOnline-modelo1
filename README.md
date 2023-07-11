@@ -1,6 +1,6 @@
 # Currículum Online Web
 
-Un currículum online web es una plataforma interactiva para crear y compartir tu currículum de forma fácil y visualmente atractiva. Este proyecto está diseñado para permitir a los usuarios crear su propio currículum personalizado y mostrarlo en línea de manera profesional.
+Un currículum online web es una plataforma interactiva para crear y compartir tu currículum de forma fácil y visualmente atractiva. Este proyecto es un diseño para aprender y enseñar a crear su propio currículum personalizado y mostrarlo en línea de manera profesional.
 
 ## Herramientas usadas:
 
@@ -24,12 +24,7 @@ Por favor, lee nuestras pautas de contribución para obtener más detalles.
 ## Enlaces
 
 - Visita mi sitio web para configurar ![Static Badge](https://img.shields.io/badge/Wi-Fi-green) :
+
 ⚡ [www.neotecs.tech](https://www.neotecs.tech)
 
-
-## Agradecimientos
-
-Queremos agradecer a la comunidad de desarrolladores y a todos los contribuyentes que han hecho de este proyecto una realidad.
-
-¡Esperamos que disfrutes creando tu currículum online con esta aplicación!
 

@@ -23,7 +23,8 @@ Por favor, lee nuestras pautas de contribución para obtener más detalles.
 
 ## Enlaces
 
-- Visita mi sitio web para configurar ![Static Badge](https://img.shields.io/badge/Wi-Fi-green): [www.neotecs.tech](https://www.neotecs.tech)
+- Visita mi sitio web para configurar ![Static Badge](https://img.shields.io/badge/Wi-Fi-green) :
+-  [www.neotecs.tech](https://www.neotecs.tech)
 
 
 ## Agradecimientos

@@ -1,6 +1,6 @@
 ![Static Badge](https://img.shields.io/badge/CURRICULUM-WEB-greenyellow) 
 
-*Este es un modelo de CV online sencillo y para práctica.*
+*Este es un modelo de CV online sencillo y para práctica.(puede contener errores por lo cual se agradecen las contribuciones.)*
 
 Un currículum online web es una plataforma interactiva para crear y compartir tu currículum de forma fácil y visualmente atractiva. Este proyecto es un diseño para aprender y enseñar a crear su propio currículum personalizado y mostrarlo en línea de manera profesional.
 

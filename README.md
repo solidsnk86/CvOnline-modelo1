@@ -1,4 +1,5 @@
-# Currículum Online Web
+[Static Badge](https://img.shields.io/badge/CURRICULUM-WEB-YELLOWGREEN) 
+## Currículum Online Web
 
 Un currículum online web es una plataforma interactiva para crear y compartir tu currículum de forma fácil y visualmente atractiva. Este proyecto es un diseño para aprender y enseñar a crear su propio currículum personalizado y mostrarlo en línea de manera profesional.
 
